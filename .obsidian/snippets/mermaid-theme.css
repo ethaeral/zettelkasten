@@ -1,0 +1,19 @@
+/* affect x-axis, y-axis, line */
+.mermaid svg[aria-roledescription="xychart"] g > g > path {
+    stroke: rgb(var(--mermaid-green-rgb)) !important;
+    stroke-width: 2px !important;
+}
+
+/* affect x-axis, y-axis */
+.mermaid svg[aria-roledescription="xychart"] g.left-axis path,
+.mermaid svg[aria-roledescription="xychart"] g.bottom-axis path {
+    stroke: rgb(var(--mermaid-gray-rgb)) !important;
+    stroke-width: 1px !important;
+}
+
+.mermaid svg[aria-roledescription="xychart"] g.line-plot-0 path {
+    stroke: #f00 !important;
+}
+.mermaid svg[aria-roledescription="xychart"] g.line-plot-1 path {
+    stroke: #f00 !important;
+}
